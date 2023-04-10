@@ -21,7 +21,7 @@ export default function Document() {
           sizes="16x16"
           href="/img/icons/favicon-16x16.png"
         />
-
+        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://berente.net/" />
         <meta property="og:image" content="/banner.png" />
         <meta property="og:image:width" content="1200" />

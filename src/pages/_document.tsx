@@ -23,7 +23,7 @@ export default function Document() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://berente.net/" />
-        <meta property="og:image" content="/banner.png" />
+        <meta property="og:image" content="https://berente.net/banner.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <link rel="manifest" href="/site.webmanifest" />

@@ -38,6 +38,7 @@ export function PageHead({
 
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
+      <meta property="og:url" content="https://berente.net/" />
       <meta property="og:image" content="/img/banner.png" />
       <link rel="manifest" href="/site.webmanifest" />
       {children}

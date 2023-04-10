@@ -61,5 +61,5 @@ export default function Home({ projects }: HomeProps) {
 }
 
 export function getStaticProps() {
-  return { props: { projects: Projects.splice(0, 4) } };
+  return { props: { projects: Projects.splice(0, 3) } };
 }

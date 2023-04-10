@@ -52,4 +52,11 @@ export default extendTheme({
       },
     },
   },
+  components: {
+    Container: {
+      baseStyle: {
+        maxW: "800px",
+      },
+    },
+  },
 });

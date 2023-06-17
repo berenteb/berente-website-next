@@ -55,19 +55,29 @@ export default function About() {
           title="Simonyi Károly College for Advanced Studies, Kir-Dev web development team"
           descriptionFields={[
             "Team leader since September, 2022",
-            "Recruiting new members",
             "Project management",
-            "Industry connections",
-            "ReactJS course",
+            "Industrial connections",
+            "Recruiting new members",
+            "Teaching ReactJS",
+            "Mentoring newbies",
           ]}
         />
         <CareerPathSection
           from="March, 2022"
+          until="June, 2023"
           title="SnapSoft, Junior Software Engineer"
           descriptionFields={[
             "React based web applications and websites",
             "React Native mobile app development",
             "AWS based solutions and certificate",
+          ]}
+        />
+        <CareerPathSection
+          from="June, 2023"
+          title="META-INF, (Medior) Software Developer"
+          descriptionFields={[
+            "Atlassian plugin development",
+            "React, Atlassian Forge",
           ]}
         />
       </VStack>

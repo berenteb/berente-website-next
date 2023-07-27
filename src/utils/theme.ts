@@ -47,6 +47,10 @@ export default extendTheme({
         marginBottom: "20px",
         fontSize: "20px",
       },
+      li: {
+        marginBottom: "20px",
+        fontSize: "20px",
+      },
       i: {
         fontSize: "20px",
       },

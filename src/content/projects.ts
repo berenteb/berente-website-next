@@ -10,6 +10,23 @@ export const Projects: Project[] = [
     url: "https://voltfinder.berente.net",
   },
   {
+    img: "https://github.com/kir-dev/kir-mail/blob/main/apps/dashboard/public/icon.png?raw=true",
+    title: "Kir-Mail",
+    description:
+      "Microservice-based email service with multi-provider support.",
+    stack: [
+      "NestJS",
+      "React",
+      "BullMQ",
+      "PostgreSQL",
+      "Redis",
+      "NX Monorepo",
+      "Kubernetes",
+    ],
+    status: ProjectStatus.ACTIVE,
+    url: "https://voltfinder.berente.net",
+  },
+  {
     img: "/img/projects/indulasch.png",
     title: "InduláSch Native",
     description: "Multi-platform mobile app to show nearby BKK departures",

@@ -2,6 +2,14 @@ import { Project, ProjectStatus } from "@/src/utils/types";
 
 export const Projects: Project[] = [
   {
+    img: "https://github.com/berenteb/voltfinder/blob/main/src/app/icon.png?raw=true",
+    title: "Voltfinder",
+    description: "A more relevant EV charger finder.",
+    stack: ["NextJS", "NestJS", "TailwindCSS", "Firebase Cloud Messaging"],
+    status: ProjectStatus.ACTIVE,
+    url: "https://voltfinder.berente.net",
+  },
+  {
     img: "/img/projects/indulasch.png",
     title: "InduláSch Native",
     description: "Multi-platform mobile app to show nearby BKK departures",
@@ -33,14 +41,5 @@ export const Projects: Project[] = [
     stack: ["SwiftUI", "Combine"],
     status: ProjectStatus.INACTIVE,
     url: "https://github.com/berenteb/mav-plus",
-  },
-  {
-    img: "/img/projects/tramtrain.png",
-    title: "Tram-train",
-    description:
-      "A web application to display information about the tramtrain line between Szeged and Hódmezővásárhely.",
-    stack: ["React", "Express", "Node"],
-    status: ProjectStatus.INACTIVE,
-    url: "https://github.com/berenteb/tramtrain",
   },
 ];

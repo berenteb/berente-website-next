@@ -24,7 +24,7 @@ export const Projects: Project[] = [
       "Kubernetes",
     ],
     status: ProjectStatus.ACTIVE,
-    url: "https://voltfinder.berente.net",
+    url: "https://github.com/kir-dev/kir-mail",
   },
   {
     img: "/img/projects/indulasch.png",

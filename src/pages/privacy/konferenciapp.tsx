@@ -1,14 +1,14 @@
 import { Page } from "@/src/layout/Page";
 import { ListItem, OrderedList, Text, Link } from "@chakra-ui/react";
 
-export default function CmschTrackerPrivacy() {
+export default function KonferenciAppPrivacy() {
   return (
     <Page
       title="Privacy policy - KonferenciApp"
-      description="CMSch Tracker or Bacon is a location tracking app for CMSch, a CMS for events in the Schönherz dormitory"
-      keywords={["cmsch", "app", "privacy policy", "data", "location"]}
+      description="KonferenciApp is a conference app for University conferences"
+      keywords={["konferenci", "app", "privacy policy", "data"]}
     >
-      <Text>Érvényes ettől: 2024. 03. 19.</Text>
+      <Text>Érvényes ettől: 2025. 05. 06.</Text>
       <Text>
         Köszönjük, hogy használod a Konferencia alkalmazást. Az alábbiakban
         részletezzük az alkalmazás által kezelt adatokat és azok védelmét.
@@ -16,9 +16,11 @@ export default function CmschTrackerPrivacy() {
       <OrderedList>
         <ListItem>Gyűjtött adatok</ListItem>
         <Text>
-          Az alkalmazás nem gyűjt semmilyen személyes adatot a felhasználókról.
-          Semmilyen formában nem tárolunk vagy rögzítünk olyan információkat,
-          amelyek egyének azonosítására alkalmasak lennének.
+          Az alkalmazás analitikai célokra használja a PostHog szolgáltatást.
+          A felhasználók azonosítására egyedi, anonim azonosítót használunk,
+          amelyet a PostHog szolgáltatásban tárolunk. Ezek az adatok nem kapcsolódnak
+          a felhasználókhoz. A gyűjtött viselkedési adatokat a PostHog szolgáltatásban tároljuk,
+          és kizárólag a KonferenciApp fejlesztésére használjuk.
         </Text>
         <ListItem>Kérdések</ListItem>
         <Text>
@@ -35,10 +37,15 @@ export default function CmschTrackerPrivacy() {
           adatok kizárólag statisztikai célokat szolgálnak, és nem köthetők
           vissza egy adott felhasználóhoz.
         </Text>
+        <ListItem>Használati adatok</ListItem>
+        <Text>
+          Az alkalmazás anonim, generált felhasználói azonosítóval a PostHog szolgáltatásban tárolja a használati adatokat.
+          Ezek az adatok kizárólag a KonferenciApp fejlesztésére használjuk és nem osztjuk meg harmadik felekkel.
+        </Text>
         <ListItem>Harmadik felek</ListItem>
         <Text>
           Az alkalmazás nem oszt meg semmilyen adatot harmadik felekkel. Minden
-          kommunikáció és tevékenység kizárólag az alkalmazás által biztosított
+          kommunikáció és tevékenység kizárólag az alkalmazás, a kérdés gyűjtő szolgáltatás és a PostHog szolgáltatás által biztosított
           platformon belül történik.
         </Text>
         <ListItem>Cookie-k és nyomkövetés</ListItem>
@@ -52,7 +59,8 @@ export default function CmschTrackerPrivacy() {
           való hozzáféréshez, valamint azok törléséhez vagy módosításához. Mivel
           az alkalmazás nem tárol személyes adatokat, ezért nincs szükség külön
           jogi eljárásokra az ilyen kérések teljesítése érdekében. A törlés és
-          módosítás kapcsoaltában kérjük, vegye fel velünk a kapcsolatot velünk.
+          módosítás kapcsoaltában kérjük, vegye fel velünk a kapcsolatot velünk az egyedi
+          azonosítójával.
         </Text>
         <ListItem>Kapcsolat</ListItem>
         <Text>
